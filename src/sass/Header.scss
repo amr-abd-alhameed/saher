@@ -1,0 +1,26 @@
+@import "./breakPoints";
+@import "./variables";
+
+.header {
+  min-height: 100px;
+  margin-left: 20px;
+  margin-right: 40px;
+  position: relative;
+
+  .logo {
+    img {
+      width: 90px;
+    }
+  }
+
+  span {
+    color: white;
+    font-size: 38px;
+  }
+  @include media("<phone") {
+    & {
+      margin-right: 15px;
+      margin-left: -5px;
+    }
+  }
+}

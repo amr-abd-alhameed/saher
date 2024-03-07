@@ -1,0 +1,33 @@
+@import "../sass/breakPoints";
+.Menu {
+  article {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 1rem;
+    padding: 0px !important;
+  }
+  div {
+    padding: 0px;
+  }
+  .img-handler {
+    // overflow: hidden;
+    position: relative;
+  }
+  .acc {
+    // right: 20px !important;
+    // color: aquamarine !important;
+    // display: flex !important;
+  }
+  img {
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 1rem;
+    max-width: 95%;
+  }
+  .onon {
+    // position: absolute;
+    // top: 12%;
+    // right: -8000px;
+    // display: none !important;
+  }
+}
